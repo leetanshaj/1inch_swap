@@ -18,14 +18,15 @@ Paramters Explaination
   9) gasPrice         : Gas price to spend on transaction
 
 Example Swap 1 BNB to USDT
-fromTokenAddress = 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE
-toTokenAddress = 0x55d398326f99059ff775485246999027b3197955
-withdrawAccount = "0xF15f243bb5xxxxxxxxxxxxxxxxxxxxxxxxxxx"
-destReceiver = 0xF15f243bb5xxxxxxxxxxxxxxxxxxxxxxxxxxx
-private_key = "18xxxxxxxb4325xxxxxxx8c9e4axxxxxxxc0b5c1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-slippage = 5
-gasLimit = 10000000
-amount = 1
-gasPrice = 5000000000
+
+1) fromTokenAddress = 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE
+2) toTokenAddress = 0x55d398326f99059ff775485246999027b3197955
+3) withdrawAccount = "0xF15f243bb5xxxxxxxxxxxxxxxxxxxxxxxxxxx"
+4) destReceiver = 0xF15f243bb5xxxxxxxxxxxxxxxxxxxxxxxxxxx
+5) private_key = "18xxxxxxxb4325xxxxxxx8c9e4axxxxxxxc0b5c1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+6) slippage = 5
+7) gasLimit = 10000000
+8) amount = 1
+9) gasPrice = 5000000000
 
 For any queries email or raise a issue
