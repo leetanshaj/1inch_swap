@@ -1,2 +1,31 @@
 # 1inch_swap
 1inch Swap API using PYTHON on BSC (Binance Smart Chain)
+
+
+Requirements
+ 1) pip install web3
+ 2) pip install --force-reinstall jsonschema==3.2.0
+
+Paramters Explaination
+  1) fromTokenAddress : Contract Address of Token to swap FROM 
+  2) toTokenAddress   : Contract Address of Token to swap TO
+  3) withdrawAccount  : Withdrawal Wallet Address 
+  4) destReceiver     : Wallet address to receive the assets in ( Leave Blank if Withdraw Account is Same as Receiver )
+  5) private_key      : Private key of the Withdraw Wallet
+  6) slippage         : slippage % in int 
+  7) gasLimit         : gas limit of to spend on transaction
+  8) amount           : Amount of asset to Swap
+  9) gasPrice         : Gas price to spend on transaction
+
+Example Swap 1 BNB to USDT
+fromTokenAddress = 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE
+toTokenAddress = 0x55d398326f99059ff775485246999027b3197955
+withdrawAccount = "0xF15f243bb5xxxxxxxxxxxxxxxxxxxxxxxxxxx"
+destReceiver = 0xF15f243bb5xxxxxxxxxxxxxxxxxxxxxxxxxxx
+private_key = "18xxxxxxxb4325xxxxxxx8c9e4axxxxxxxc0b5c1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+slippage = 5
+gasLimit = 10000000
+amount = 1
+gasPrice = 5000000000
+
+For any queries email or raise a issue
