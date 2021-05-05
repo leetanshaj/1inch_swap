@@ -8,8 +8,9 @@ Instead of using Private Key, a local mainnet can be attached to Metamask for Tr
 Requirements
  1) pip install web3
  2) pip install --force-reinstall jsonschema==3.2.0
+ 3) pip install websocket-client
 
-Paramters Explaination
+Paramters Explaination for swap
   1) fromTokenAddress : Contract Address of Token to swap FROM 
   2) toTokenAddress   : Contract Address of Token to swap TO
   3) withdrawAccount  : Withdrawal Wallet Address 
@@ -31,5 +32,8 @@ Example Swap 1 BNB to USDT
 7) gasLimit = 10000000
 8) amount = 1
 9) gasPrice = 5000000000
+
+Parameters of binance_price_tracker.py
+ 1) pair : Pair u want to track, example BNB to USDT so pair will be bnbusdt # List of pairs available on binance api documentation
 
 For any queries email or raise a issue
