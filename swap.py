@@ -24,13 +24,13 @@ destReceiver = "0xF15f243bb5xxxxxxxxxxxxxxxxxxxxxxxxxxx"
 private_key = '18xxxxxxxb4325xxxxxxx8c9e4axxxxxxxc0b5c1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 slippage = 5
 gasLimit = 10000000
-amount = intToDecimal(1) 
+amount = intToDecimal(1, 18) 
 gasPrice = 5000000000
 ChainUrl = "https://bsc-dataseed1.binance.org:443"
 _1inchurl = f'https://api.1inch.exchange/v3.0/56/swap?fromTokenAddress={fromTokenAddress}&toTokenAddress={toTokenAddress}&amount={amount}&fromAddress={withdrawAccount}&destReceiver={destReceiver}&slippage={slippage}&gasPrice={gasPrice}&gasLimit={gasLimit}'
 
 
-json_data = get_api_call_data()
+json_data = get_api_call_data(_1inchurl)
 web3 = Web3(Web3.HTTPProvider(ChainUrl))
 nonce = web3.eth.getTransactionCount(withdrawAccount)
 tx = json_data['tx']
