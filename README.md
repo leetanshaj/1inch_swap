@@ -1,5 +1,5 @@
 # 1inch_swap
-1inch Swap API using PYTHON on BSC (Binance Smart Chain)
+1inch.io Swap API using PYTHON on BSC (Binance Smart Chain)
 
 This bot can be used to swap from One Crypto Asset to Another using 1inch Exchange and BSC (Binance Smart Chain Route)<br>
 Arbitrage Can be done using this api and further rules to set slippage and margin<br>
